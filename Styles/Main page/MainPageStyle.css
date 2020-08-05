@@ -1,5 +1,4 @@
-
-body {
+ body {
     background-image: url('bck.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -9,9 +8,49 @@ body {
 
 .Header {
     color: deeppink;
-    text-align: center;
     text-decoration: underline;
     font-family: JapaneseFont;
+    text-align: center;
+}
+
+ h2 {
+    color: white;
+
+}
+
+/*--------------START OF SIDEBAR--------------*/
+
+#main-container {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+#sidebar {
+    display: table-cell;
+    width: 15%;
+    vertical-align: top;
+    background-color: #8e44ad;
+}
+
+ #sidebar a {
+        display: block;
+        padding: 10px;
+        color: rgba(255,255,255, 0.5);
+        margin: 15px 0 0 0;
+        text-decoration: none;
+    }
+
+ #sidebar a:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            color: white !important;
+        }
+
+ #content {
+    display: table-cell;
+    width: 85%;
+    vertical-align: top;
+    padding: 10px 0 0 10px;
 }
 
 @font-face {
