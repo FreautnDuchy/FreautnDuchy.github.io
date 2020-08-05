@@ -1,8 +1,3 @@
-@font-face {
-    font-family: JapaneseFont;
-    src: url('Japanese.ttf');
-}
-
 body {
     background-image: url('bck.jpg');
     background-repeat: no-repeat;
@@ -16,4 +11,9 @@ body {
     text-align: center;
     text-decoration: underline;
     font-family: JapaneseFont;
+}
+
+@font-face {
+    font-family: JapaneseFont;
+    src: url('Japanese.ttf');
 }
