@@ -1,3 +1,4 @@
+
 body {
     background-image: url('bck.jpg');
     background-repeat: no-repeat;
@@ -6,14 +7,14 @@ body {
     background-attachment: fixed;
 }
 
-@font-face {
-    font-family: JapaneseFont;
-    src: url('Japanese.ttf');
-}
-
 .Header {
     color: deeppink;
     text-align: center;
     text-decoration: underline;
     font-family: JapaneseFont;
+}
+
+@font-face {
+    font-family: JapaneseFont;
+    src: url('Japanese.ttf');
 }
