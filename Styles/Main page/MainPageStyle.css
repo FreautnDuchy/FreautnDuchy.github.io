@@ -1,44 +1,52 @@
- body {
-    background-image: url('bck.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    border: none;
-    background-attachment: fixed;
+html {
+    height: 100%
 }
-
-.Header {
+    .Header {
     color: deeppink;
     text-decoration: underline;
     font-family: JapaneseFont;
     text-align: center;
+    font-size: 45px;
 }
+
+body {
+    margin:0;
+    height: 100%;
+    background-image: url('bck.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    border: none;
+    background-attachment: fixed;
+}
+
 
  h2 {
     color: white;
 
 }
 
-/*--------------START OF SIDEBAR--------------*/
+/*START OF SIDEBAR*/
 
-#main-container {
+ #main-container {
     display: table;
     width: 100%;
     height: 100%;
 }
 
-#sidebar {
+ #sidebar {
     display: table-cell;
     width: 15%;
     vertical-align: top;
-    background-color: #8e44ad;
+    background-color: #CF5FD9;
 }
 
  #sidebar a {
         display: block;
         padding: 10px;
-        color: rgba(255,255,255, 0.5);
+        color: black;
         margin: 15px 0 0 0;
         text-decoration: none;
+        font-family: JapaneseFont;
     }
 
  #sidebar a:hover {
@@ -53,7 +61,13 @@
     padding: 10px 0 0 10px;
 }
 
+ /*END OF SIDEBAR*/
+
 @font-face {
     font-family: JapaneseFont;
     src: url('Japanese.ttf');
 }
+
+
+
+/*WHY IS THIS DOGSIT FUCKING BROKEN*/
