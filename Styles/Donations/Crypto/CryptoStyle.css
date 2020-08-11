@@ -1,0 +1,18 @@
+html {
+    height: auto;
+}
+
+.Header {
+    color: deeppink;
+    text-decoration: underline;
+    font-family: JapaneseFont;
+    text-align: center;
+    font-size: 45px;
+    text-shadow: 2px 2px pink;
+}
+
+h1 {
+    text-align: left;
+    color: lightgrey;
+    text-shadow: white;
+}
